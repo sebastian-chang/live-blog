@@ -71,6 +71,11 @@ export default {
 .messages {
   max-height: 400px;
   overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.messages::-webkit-scrollbar{
+  display: none;
 }
 .own-chat {
   text-align: right;
